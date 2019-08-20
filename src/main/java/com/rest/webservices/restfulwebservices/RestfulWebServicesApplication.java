@@ -24,7 +24,8 @@ public class RestfulWebServicesApplication {
 	}
 
 //	/*
-//	 * Not needed if the property spring.messages.basename=messages is set.
+//	 * Not needed to register this Bean if the property spring.messages.basename=messages is set.
+//	 * Usually these registrations are done in a Java Configuration class. 
 //	 */
 //	@Bean
 //	public ResourceBundleMessageSource messageSource() {
